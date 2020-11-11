@@ -147,8 +147,7 @@ int ada_gore_index_tablosu_olustur(int *array, linked_list *list, int  node)
 		array[j]=array[j-1];
 	}
 	array[i] = node;
-	//hocanin algoritmalarini buraya implement edecegim
-	//ada gore olacagini unutmamak gerekli
+	
 	return *array;
 }
 int faturaya_gore_index_tablosu_olustur(int *array, linked_list *list, int  node)
