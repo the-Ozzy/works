@@ -65,7 +65,7 @@ int main(void) {
     printf("Pre-Order(root-sol-sağ) sıralamalı:\t");
     pre_order(root);
     puts("\n************************************************************************************************************************");//20
-    printf("Pre-Order(sol-root-sağ) sıralamalı:\t");
+    printf("In-Order(sol-root-sağ) sıralamalı:\t");
     in_order(root);
     puts("\n************************************************************************************************************************");//20
     printf("Post-Order(sol-sağ-root) sıralamalı:\t");
@@ -153,8 +153,6 @@ int main(void) {
     puts("Listedeki 80 puandan yüksek almış öğrenciler;");
     ind_out(indtable2,80,1);
 }
-// oki doki
-
 
 void add_l(bintree1 * root, int number){
     bintree1 *iter = root;
